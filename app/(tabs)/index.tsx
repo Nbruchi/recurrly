@@ -15,6 +15,7 @@ import { usePostHog } from "posthog-react-native";
 import { useMemo, useState } from "react";
 import { FlatList, Image, Pressable, Text, View } from "react-native";
 import { SafeAreaView as RNSafeAreaView } from "react-native-safe-area-context";
+
 const SafeAreaView = styled(RNSafeAreaView);
 
 export default function App() {
